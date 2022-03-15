@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+<!-- Title of the website -->
+    <title>Online Website</title>
+     <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+<section class="header">
+    <nav>
+
+<!-- Adding the logo on the home page -->
+        <a href="index.html"><img src="images/logo.png"></a> 
+
+<!-- To add sections on the website to make it look more organized-->
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">MATH</a></li>
+                <li><a href="">PHYSICS</a></li>
+                <li><a href="">COMPUTER PROGRAMMING</a></li>
+                <li><a href="">CHEMISTRY</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Notes and Answers For Grade 11</h1>
+    <p>I know it is pretty boring to listen to your teacher for 2 hours. That is why I created this <br> website for students like you to  just have to have the key notes and answers to core subjects!</p>
+    <a href="contact.html" class="hero-btn">Contact Me To Know More</a>
+</div>
+</section>
+
+<!--Course-->
+<section class="course">
+    <h1>Courses I Offer</h1>
+    <p>I am giving key notes and answers to 4 subjects: Math, Physics, Chemistry, and Computer Programming!</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Pre-Calculus 12</h3>
+            <p>Topics: Transformations, Radical Functions, Polynomial Functions, Trignometry, Exponential Functions, Log Functions, Rational Functions, Function Operations, Geo Sequences, Series, and Conic Sections.</p>
+        </div>
+        <div class="course-col">
+            <h3>Physics</h3>
+            <p>Topics: Kinematics, Dynamics, Momentum, Energy, Electricity, Waves, and Optics.</p>
+        </div>
+    </div>
+</section>
+
+<section class="course">
+    <div class="raw">
+        <div class="course-col">
+            <h3>Computer Programming</h3>
+            <p>Topics: Introduction To Programming With Turtle Graphics.</p>
+        </div>
+        <div class="course-col">
+            <h3>Chemistry</h3>
+            <p>Topics: Unit Conversion, Significant Figues, Moles, Chemical Reactions, Stoichiometry, Atoms, Molecules, Periodic Table, Solution Chemistry, and Organic Chemistry.</p>
+        </div>
+    </div>
+</section>
+
+<!--Facilities-->
+<section class="facilities">
+    <h1>Facilities</h1>
+    <p>I provide Key Notes, Questions, and Formula Sheet</p>
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/notes.jpg">
+            <h3>Class Notes</h3>
+            <p>I will be providing important class notes.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/problem.png">
+            <h3>Question Sets</h3>
+            <p>I will be providing Problem Questions.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/formula.jpg">
+            <h3>Formula Sheets</h3>
+            <p>I will be providing Formula Sheets.</p>
+        </div>
+    </div>
+</section>
+
+<!--Call To Action-->
+<section class="cta">
+    <h1>Contact Me For Any Questions And Reviews</h1>
+    <a href="contact.html" class="hero-btn">CONTACT ME</a>
+</section>
+
+    
+    
+<!--Footer-->
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Hello! I am Yogya. I am currently in Grade 11, learning in Moscrop Secondary School. <br> I am learning these subjects, so I thought to share it with you guys!</p>
+    <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+</section>
+<!--Java Script for Toggle Menu-->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script> 
+</body>
+</html>

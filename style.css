@@ -13,6 +13,10 @@
     background-size: none;
     position: relative;
 }
+
+.logoo{
+    margin-top: 20px;
+}
 /*To Bring the sections to the right side*/
 nav{
     display: flex;

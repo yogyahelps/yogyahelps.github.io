@@ -14,15 +14,23 @@
     position: relative;
 }
 
-.logoo{
-    margin-top: 30px;
+.logoo img{
+    margin-top: 43px;
 }
 @media(max-width: 700px){
     .logoo img{
-        height: 50px;
-        width: 75px;
+        height: 25%;
+        width: 25%;
     }
 }
+/*
+@media(max-width: 700px){
+    .fa fa-bars{
+        height: 10px;
+        width: 80px;
+    }
+}
+*/
 /*To Bring the sections to the right side*/
 nav{
     display: flex;
